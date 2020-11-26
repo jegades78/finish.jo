@@ -72,17 +72,25 @@
 		ul li:hover ul li{
 			display: block;
 		}
+		
 		#bg{
-			width: 350px;
-			right:200px; 
-			position:sticky;
-			left: 100px;
-			overflow: hidden;
-			display: flex;
-			flex-direction: column;
-			transform: translateY(-10%);
-			z-index:2;
-			opacity:.2;
+			height:relative;
+			width:50%;
+			max-width: 350px;
+			position: relative;
+			opacity: .3;
+			padding-right: 200px;
+
+		}
+		@media only screen and ( min-width: 40%){
+			#bg{
+			height:relative;
+			width: 22%;
+			max-width: 500px;
+			margin : 10px 20px 30px 400px;
+			position: center;
+
+		}
 		}
 	</style>
 </head>
