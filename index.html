@@ -3,37 +3,12 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 	<title>jegades</title>
 	<style type="text/css">
-		.smooth{
-			position: relative;
-			width: 100%;
-			height: 100%;
-			scroll-behavior: smooth;
-			overflow-y: scroll;
-		}
-		.scrolls{
-			position: absolute;
-			top:50%;
-			right: 1.25em;
-			transform: translateY(-50%);
-			z-index: 2;
-			display: flex;
-			flex-direction: column;
-			align-content: center;
-			justify-content: center;
-			font-size: 2rem;
-		}
-		.scrolls .center{
-			font-size: 0.825rem;
-		}
 		body{
 			margin: 0px;
 			padding: 0px;
-			position: relative;
-			overflow: hidden;
-			display: flex;
-			flex-direction: column;
-			height: 100vh;
-			line-height: 1.5;
+			background-image:url(8b699b04d19bdf370cd8cfe5a4685d33.jpg);
+			background-size: cover;
+			background-position: center;
 		}
 		ul{
 			margin: 0px;
@@ -49,37 +24,39 @@
 			text-align: center;
 			font-size: 20px;
 			margin-right: 2px;
-			display: inline;
+			display:inline;
 			background: linear-gradient(25deg,#302D2C ,#7B7875);
 			border-radius: 50px;
 			box-sizing: border-box;
-			box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+
 		}
 		ul li a{
 			text-decoration: none;
 			color:white ;
 			display:block;
+			transition: 0.6S ease;
 		}
 		ul li a:hover{
-			background: linear-gradient(45deg,#F8F3FA,#858286);
+			background: linear-gradient(25deg,#F8F3FA,#858286);
 			background-color:#393738 ;
 			border-radius: 50px;
 			color: black;
 		}
 		 ul li ul li {
-			display: none;
+			display:none;
 		}
 		ul li:hover ul li{
 			display:inline;
 		}
-		
-	#bg{
-			height:relative;
+		#bg{
+		   height:relative;
 			width:50%;
 			max-width: 360px;
 			position: relative;
 			opacity: .3;
 			padding-right: 200px;
+			left: -80px;
+
 		}
 		@media only screen and (max-width:600px){
 			#b{
@@ -127,13 +104,12 @@
 			opacity: .3;
 			margin-top: 20px;
 		}
-		}
+	}
 	</style>
 </head>
 <body id="b">
 	<div class="smooth">
-	<body background="8b699b04d19bdf370cd8cfe5a4685d33.jpg" style="background-repeat: no-repeat; background-size: cover;  ">
-    <ul >
+	<ul>
     	<li><a href="https://jegades78.github.io/homepagejega.com/">Home</a></li>
      	<li><a href="about.html">About me</a></li>
      	<li><a>Contact</a>
